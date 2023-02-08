@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Click</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbarback">
+        <div class="navbar">
+            <h1 id="dojonary">
+                Dojonary
+            </h1>
+            <input class="search" type="text" name="search" placeholder="Search" >
+            <button onclick="log(this)" class="login" type="button">
+                Login
+            </button>
+        </div>
+    </div>
+    <div class="mainbox">
+        <div class="leftcolumn">
+            <div class="box">
+                <div class="ninja">
+                    <h1>
+                        ninja
+                    </h1>
+                    <h4>
+                        noun
+                    </h4>
+                    <h5>
+                        Plural:ninjas
+                    </h5>
+                    <button class="likes" type="button" onclick="alert('Ninja was liked.')">
+                        13 likes
+                    </button>
+                </div>
+                <h3 class="definition">
+                    A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a>
+                </h3>
+            </div>
+            <div class="box">
+                <div class="ninja">
+                    <h1>
+                        ninja
+                    </h1>
+                    <h4>
+                        noun
+                    </h4>
+                    <h5>
+                        Plural:ninjas
+                    </h5>
+                    <button onclick="alert('Ninja was liked.')" class="likes" type="button">
+                        37 likes
+                    </button>
+                </div>
+                <h3 class="definition">
+                    A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus
+                </h3>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <h2>
+                Dojonary is <br>
+                defined by YOU
+            </h2>
+            <button onclick="remove(this)" class="adddefinition" type="button">
+                Add definition
+            </button>
+        </div>
+    </div> 
+    <script src="script.js"></script>  
+</body>
+</html>

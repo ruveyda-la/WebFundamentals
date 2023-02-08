@@ -1,0 +1,29 @@
+h1 {
+    background-color: black;
+    font-family: sans-serif;
+    text-align: left;
+    height: 50px;
+    padding: 3px;
+}
+#my {
+    color:azure;
+}
+#cloud {
+    color:aqua;
+}
+h2 {
+    background-color: blueviolet;
+    text-align: center;
+    color: azure;
+    font-family: sans-serif;
+    height: 40px;
+    padding: 3px;
+}
+h3 {
+    background-color:lightskyblue ;
+    text-align: end;
+    text-decoration: underline;
+    font-family: sans-serif;
+    height: 30px;
+    padding: 3px;
+}

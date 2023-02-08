@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbarback">
+        <div class="navbar">
+            <h1 class="network">Network
+            </h1>
+            <h1 class="feed">Your Feed
+            </h1>
+        </div>
+    </div>
+    <div class="mainbox">
+        <div class="leftcolumn">
+            <img class="user-circle" src="user-circle.png" alt="avatar">
+            <h4 class="link1" ><a href="#">Add an avatar</a>
+            </h4>
+            <h3 class="upleft">
+                James Doe
+            </h3>
+        </div>
+        <div class="rightcolumn">
+            <div class="box">
+                <div class="up">
+                    <h3 class="upleft">
+                        Neil M
+                    </h3>
+                    <div class="upright">
+                        <h4 class="likes">
+                            <span id="number1"  class="number">9</span> like(s)
+                        </h4>
+                        <button onclick ="like('#number1')" class="button">
+                            Like
+                        </button>
+                    </div>    
+                </div>
+                <div class="bottom">
+                    <h3 class="post">
+                        I just set up this new discord bot, let me know what you all think. <a href="#" class="link">link</a>
+                    </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="up">
+                    <h3 class="upleft">
+                        Nichole K
+                    </h3>
+                    <div class="upright">
+                        <h4 class="likes">
+                            <span id="number2"  class="number">12</span> like(s)
+                        </h4>
+                        <button onclick="like('#number2')" class="button">
+                            Like
+                        </button>
+                    </div>    
+                </div>
+                <div class="bottom">
+                    <h3 class="post">
+                        Just finished my <a href="#" class="link">next comic</a>, check it out.
+                    </h3>
+                </div>
+            </div>
+            <div class="box">
+                <div class="up">
+                    <h3 class="upleft">
+                        Jim R
+                    </h3>
+                    <div class="upright">
+                        <h4 class="likes">
+                            <span id="number3"   class="number">9</span> like(s)
+                        </h4>
+                        <button onclick="like('#number3')"  class="button">
+                            Like
+                        </button>
+                    </div>    
+                </div>
+                <div class="bottom">
+                    <h3 class="post">
+                        I can't stop listening to the <a href="#" class="link">new album</a>. Who else is liking it?
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>    
+</body>
+</html>

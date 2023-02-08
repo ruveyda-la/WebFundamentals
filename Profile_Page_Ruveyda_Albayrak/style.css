@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+.navbarback {
+    background-color:black;
+}
+.navbar {
+    background-color:black;
+    color: white;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-list{
+    display:flex;
+    list-style-type: none;
+    justify-content:flex-start ;
+    padding:20px;
+    padding-left: 0px;
+    align-items: center;   
+}
+#profilehead {
+    font-size: x-large;
+}
+.navlist {
+    padding:5px;
+}
+#sign-out {
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+}
+.mainbox {
+    display:flex;
+    margin: 0 auto;
+    width: 700px;
+    height: 1500px;
+    gap:50px;
+    padding:20px;
+}
+.leftcolumn {
+    flex:2;   
+}
+.usercard {    
+    border: 3px solid gray;
+    padding: 0px;
+    margin: 0 auto;
+    margin-bottom:50px;   
+}
+.up{
+    background-color: cadetblue;
+    height:55px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.user{
+    width:75px;
+    height:75px;
+    padding:3px;
+    background-color: white;
+    border: 3px solid gray;
+    border-radius:50%;
+}
+.bottom{
+    background-color: white;
+    padding-top: 55px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+h6 {
+    display:flex;
+    align-items: center;
+    gap: 5px;
+}
+.edit {
+    color:royalblue;
+}
+.map{
+    width:16px;
+}
+.gear{
+    width:12px;
+}
+.education {
+    background-color: white;
+    border: 3px solid gray;
+    border-bottom:none;
+}
+.box-head {
+    background-color: black;
+    color:white;
+    padding:10px;  
+}
+.box-body {
+    padding: 10px;
+}
+#gray {
+    color:gray;
+}
+.rightcolumn {
+    flex:1;
+}
+.connection {
+    border: 3px solid gray;
+    margin-bottom: 57px;
+}
+.connection-head {
+    display:flex;
+    padding: 10px;
+    gap: 10px;
+    background-color: black;
+    color:white;
+    align-items: center;
+}
+.number {
+    border-radius: 50%;
+    background-color: gray;
+    color: black;
+    padding:4px;
+}
+.connection-body {
+    display:flex;
+    align-items: center;
+    background-color: white;   
+}
+.profile {
+    flex:1;
+    display: flex;
+    gap:5px;
+    padding:10px;
+    align-items: center;
+    background-color: white;
+}
+.profile-image {
+    width: 30px;
+    border-radius: 50%;
+}
+.profile-name {
+    font: 1 em;
+}
+.acceptance{
+    flex:1;
+}
+.circle {
+    width: 25px;
+}
+
+
+

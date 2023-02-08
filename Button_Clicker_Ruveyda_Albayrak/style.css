@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto';
+}
+.navbarback {
+    background-color: white;
+}
+.navbar {
+    background-color: lightgray;
+    width:620px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px;
+}
+#dojonary {
+    margin-left: 30px;
+}
+.search, .login, .box, .rightcolumn, .adddefinition   {
+    border: 2px solid black;
+
+}
+.search {
+    padding:5px;
+    width: 160px;
+}
+.login {
+    padding: 5px;
+    background-color: dodgerblue;
+    color:white;
+    box-shadow: 2px 3px black;
+    margin-right: 20px;
+}
+.mainbox {
+    margin: 0 auto;
+    width: 640px;
+    display:flex;
+    gap:20px;
+    padding-top: 20px;
+}
+.box {
+    display:flex;
+    padding: 15px;
+    margin-bottom:25px;
+    align-items: center;
+
+}
+.ninja {
+    flex:1;
+    text-align: center;
+}
+h4, h5 {
+    padding: 5px;
+}
+
+.likes {
+    background-color: yellow;
+    padding: 5px;
+    box-shadow: 2px 3px black;
+
+}
+.definition {
+    flex:2;
+    text-align: center;
+}
+
+
+.leftcolumn {
+    flex: 2;
+}
+.rightcolumn {
+    flex:1;
+    height: max-content;
+    padding: 10px;
+    
+}
+.adddefinition {
+    width: 180px;
+    padding: 3px;
+    box-shadow: 2px 3px black;
+    background-color: green;
+    margin-top: 10px;
+    font-size: 1em;
+}

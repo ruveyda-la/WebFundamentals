@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    margin:20px;
+    font-family: 'Balsamiq Sans';
+}
+
+
+
+#search {
+    color:aqua;
+    border:2px solid aqua;
+    border-radius: 15px; 
+    padding: 5px 50px 5px 50px;
+    font-size:larger;
+    font-weight: bolder;
+    
+}
+
+#plus {
+    color:white;
+    background-color: aqua;
+    border: none;
+    border-radius: 50%;
+    font-size: larger;
+}
+
+#create {
+    color:white;
+    background-color: blue;
+    padding:5px 50px 5px 50px;
+    font-size: larger;
+    box-shadow: 10px 5px black;
+    border: 2px solid black;
+
+}

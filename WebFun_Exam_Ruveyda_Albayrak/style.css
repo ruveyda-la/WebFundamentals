@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Balsamiq Sans;
+}
+.container {
+    width:860px;
+    margin: 0 auto;
+}
+.navbar1 {
+    display: flex;
+    gap:30px;
+    align-items: center;
+    padding-top:20px;
+    margin-bottom:30px;
+}
+.leafpng {
+    background-color:aquamarine;
+    width:40px;
+    border-radius:4px;
+
+}
+.searchbar {
+    width:400px;
+    padding:5px;
+    border:solid black 2px;
+    border-radius: 25px;;
+    display:flex;
+    justify-content: space-between;
+}
+.searchpng {
+    width:15px;
+
+}
+.placeholderarea {
+    border:none;
+}
+.cartpng {
+    width:40px;
+
+}
+
+
+.navbar2 {
+    display:flex;
+    gap:50px;
+    list-style-type: none;
+    width:860px;
+    border-bottom: solid black 4px;
+    margin-bottom:20px;
+}
+
+.navbar3{
+    width:860px;
+    margin:0 auto;
+    text-align: center;
+    margin-bottom:30px;
+
+}
+
+.bigbox {
+    display:flex;
+    width:860px;
+    margin:0 auto;
+    gap:30px;
+}
+.leftcolumn {
+    flex:2;
+    display:flex;
+    margin-bottom: 20px;
+    width:100%
+}
+.leftcolumn-1{
+    width:100%;
+    text-align: center;
+    background-color: aquamarine;
+    color:white;
+}
+.discoversent {
+    margin-top:20px;
+    margin-bottom:115px;
+
+}
+.discoverarr {
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5em;
+}
+.arrowpng {
+    width:40px
+}
+
+
+
+.leftcolumn-2{
+width:100%;
+}
+
+
+.rightcolumn {
+    flex:1;
+}
+.aloe-m {
+    width:100%;
+    margin-bottom:20px;
+}
+.soothing {
+    background-color: aquamarine;
+    color:white;
+    font-size: 1.3em;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top:14px;
+    padding-bottom:14px;
+}
+
+.smallbox {
+    display:flex;
+    gap:20px;
+    width:100%;
+    margin:0 auto;
+    background-color: lightskyblue;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.minicolumn {
+    flex:1;
+    text-align: center;
+
+}
+.s-succulent {
+
+    width:70px;
+    border:none;
+    border-radius:50%;
+}
+
+.cookie-box{
+    display:flex;
+    margin:0 auto;
+    width:890px;
+    border:solid black 3px;
+    background-color: white;
+    padding:10px;
+    align-items: center;
+    justify-content: space-around;
+    position:relative;
+    bottom:100px;
+
+}
+.cookie-button {
+    color:white;
+    background-color: aquamarine;
+    border:solid black 3px;
+    box-shadow: black 2px 2px;
+    width:70px;
+    padding:3px; 
+}
+.policy {
+    color:blue;
+}

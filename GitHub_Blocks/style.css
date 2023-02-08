@@ -1,0 +1,52 @@
+body {
+
+    
+}
+
+.container{
+    background-color:lightgray;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 700px;
+    width: 500px;
+    border-top:solid ;
+}
+h1{
+   font-family: sans-serif; 
+   text-align: center;
+}
+
+img { 
+      width  : 150px;
+      height : 150px;
+}
+.blue {
+      background-color:lightblue ;
+      display:flex;
+      justify-content: space-between ;
+      padding:10px;
+      margin:20px;
+}
+.pink {
+    background-color:lightpink;
+      display:flex;
+      justify-content: space-evenly;
+      padding:10px;
+      margin: 20px;
+
+}
+.white{
+    background-color:white ;
+      display:flex;
+      justify-content: space-between ;
+      padding: 10px;
+      margin:20px;
+}
+.footer{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+a {
+    color: blue;
+}
